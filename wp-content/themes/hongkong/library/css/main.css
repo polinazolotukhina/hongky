@@ -1,0 +1,291 @@
+/* BASE - base styles, mixins, etc. */
+/* HEADER */
+/* HOMEPAGE*/
+/* FOOTER */
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /* line 8, ../scss/base/_base.scss */
+  #interestingheader {
+    position: absolute;
+    margin-top: -20px;
+    background: white;
+    left: 50%;
+    width: 234px;
+    margin-left: -117px;
+  }
+
+  /* line 16, ../scss/base/_base.scss */
+  .thick_line, #line1, #line2 {
+    width: 1111px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /* line 24, ../scss/base/_base.scss */
+  #interestingheader {
+    position: absolute;
+    margin-top: -20px;
+    background: white;
+    left: 50%;
+    width: 234px;
+    margin-left: -117px;
+  }
+
+  /* line 32, ../scss/base/_base.scss */
+  .thick_line, #line1, #line2 {
+    width: 1111px;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /* line 39, ../scss/base/_base.scss */
+  #interestingheader {
+    position: absolute;
+    margin-top: -18px;
+    background: white;
+    left: 50%;
+    width: 234px;
+    margin-left: -117px;
+  }
+
+  /* line 48, ../scss/base/_base.scss */
+  .thick_line, #line1, #line2 {
+    width: 1139px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /* line 56, ../scss/base/_base.scss */
+  #interestingheader {
+    position: absolute;
+    margin-top: -18px;
+    background: white;
+    left: 50%;
+    width: 234px;
+    margin-left: -117px;
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /* line 69, ../scss/base/_base.scss */
+  #interestingheader {
+    position: absolute;
+    margin-top: -18px;
+    background: white;
+    left: 50%;
+    width: 234px;
+    margin-left: -117px;
+  }
+}
+/* MODULS, individual components */
+/* LAYUOTS */
+/* line 1, ../scss/layouts/_header.scss */
+.navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+  background-color: transparent;
+}
+
+/* line 6, ../scss/layouts/_header.scss */
+.navbar-nav {
+  font-weight: 700;
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  float: right;
+}
+
+/* line 14, ../scss/layouts/_header.scss */
+.navbar-nav > li > a:hover {
+  color: #fd7822;
+  background-color: transparent;
+}
+
+/* line 18, ../scss/layouts/_header.scss */
+.navbar-brand {
+  height: 100px;
+  width: 241px;
+}
+
+/* line 22, ../scss/layouts/_header.scss */
+.navbar-toggle {
+  margin-top: 18px;
+  background-color: transparent;
+  border: 4px solid black;
+  border-radius: 4px;
+}
+
+/* line 28, ../scss/layouts/_header.scss */
+#menu {
+  margin-bottom: 0;
+}
+
+/* line 1, ../scss/layouts/_footer.scss */
+footer {
+  background: #242424;
+  margin-top: 50px;
+}
+/* line 4, ../scss/layouts/_footer.scss */
+footer p {
+  color: white;
+  margin-top: 30px;
+}
+
+/* line 10, ../scss/layouts/_footer.scss */
+.menu a {
+  color: white;
+}
+
+/* line 16, ../scss/layouts/_footer.scss */
+footer p {
+  margin-bottom: 30px;
+}
+
+/* line 5, ../scss/layouts/_homepage.scss */
+.mainpic h1 {
+  font-size: 30px;
+}
+
+/* line 10, ../scss/layouts/_homepage.scss */
+h2 {
+  font-size: 25px;
+}
+
+/* line 13, ../scss/layouts/_homepage.scss */
+.mainpics {
+  margin-top: 25px;
+}
+
+/* line 17, ../scss/layouts/_homepage.scss */
+.header, #menu, .mainpic h1, .archive_title {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  color: black;
+}
+
+/* line 25, ../scss/layouts/_homepage.scss */
+.thick_line, #line1, #line2 {
+  height: 7px;
+  background-color: #000;
+  margin: 0 auto;
+}
+
+/* line 31, ../scss/layouts/_homepage.scss */
+#line1 {
+  margin-top: 70px;
+}
+
+/* line 35, ../scss/layouts/_homepage.scss */
+#line2 {
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+/* line 41, ../scss/layouts/_homepage.scss */
+.picdiv {
+  background: url(../images/Hong.jpg);
+  padding-left: 55px;
+  padding-right: 18px;
+  opacity: .7;
+}
+/* line 46, ../scss/layouts/_homepage.scss */
+.picdiv:hover {
+  opacity: 1;
+}
+
+/* line 51, ../scss/layouts/_homepage.scss */
+#transportheader {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 468px;
+}
+
+/* line 59, ../scss/layouts/_homepage.scss */
+#interesting a {
+  font-size: 18px;
+  line-height: 24px;
+  color: black;
+}
+/* line 66, ../scss/layouts/_homepage.scss */
+#interesting img {
+  margin-top: 50px;
+}
+
+/* line 70, ../scss/layouts/_homepage.scss */
+p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+/* line 75, ../scss/layouts/_homepage.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 78, ../scss/layouts/_homepage.scss */
+ul {
+  list-style-type: none;
+}
+
+/* line 82, ../scss/layouts/_homepage.scss */
+#posts img {
+  margin-top: 50px;
+}
+
+/* line 86, ../scss/layouts/_homepage.scss */
+#sb_instagram .sbi_header_text {
+  padding-top: 0;
+}
+
+/* line 89, ../scss/layouts/_homepage.scss */
+#sb_instagram .sb_instagram_header {
+  padding: 0!important;
+}
+
+/* line 93, ../scss/layouts/_homepage.scss */
+.alm-reveal {
+  clear: both;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* line 99, ../scss/layouts/_homepage.scss */
+.archive #main article {
+  height: 450px;
+}
+
+/* line 1, ../scss/layouts/_sidebar.scss */
+.form-inline .input-group {
+  margin-top: 40px;
+  width: 350px;
+}
+
+/* line 1, ../scss/layouts/_catpage.scss */
+#main article footer {
+  min-height: 0;
+}
+
+/* line 4, ../scss/layouts/_catpage.scss */
+.archive_title {
+  font-size: 50px;
+}
+
+/* line 29, ../scss/main.scss */
+img {
+  width: 100%;
+}
+
+/* line 34, ../scss/main.scss */
+a {
+  color: black;
+}
+/* line 36, ../scss/main.scss */
+a:hover {
+  color: #fd7822;
+}
+
+/* line 40, ../scss/main.scss */
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}

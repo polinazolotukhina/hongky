@@ -1,0 +1,31 @@
+  .navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
+    
+    background-color: transparent;
+}
+
+.navbar-nav {
+    font-weight: 700;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    float:right;
+  }
+
+.navbar-nav>li>a:hover{
+    color: $hover-color;
+     background-color: transparent;
+}
+.navbar-brand{
+  height:100px;
+  width:241px;
+}
+.navbar-toggle {
+    margin-top: 18px;
+    background-color: transparent;
+    border: 4px solid black;
+    border-radius: 4px;
+}
+#menu{
+  @extend .header;
+  margin-bottom:0;
+}

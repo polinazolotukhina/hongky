@@ -1,0 +1,102 @@
+.mainpic {
+	img{
+		
+	}
+	h1{
+		@extend .header;
+		font-size: 30px;
+	}
+}
+h2{
+	font-size:25px;
+}
+.mainpics{
+	margin-top:25px;
+}
+
+.header{
+	font-family:'Ubuntu', sans-serif;
+    font-weight: 700;
+	color: $header-color;
+}
+
+
+
+.thick_line {
+    height: 7px;
+    background-color: #000;
+    margin: 0 auto;
+    
+}
+#line1{
+	@extend .thick_line;
+	 margin-top:70px;
+}
+#line2{
+	@extend .thick_line;
+	 margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.picdiv{
+	background:	url(../images/Hong.jpg);
+	padding-left: 55px;
+    padding-right: 18px;
+	opacity:.7;
+	&:hover{
+		opacity:1;
+	}
+}
+
+#transportheader{
+	position:absolute;
+	margin-top: 50px;
+	margin-left: 468px;
+
+}
+
+#interesting {
+	a{
+		font-size: $headers-font-size;
+   		 line-height: 24px;
+   		 color: $header-color;
+	}
+	
+
+	img{
+	margin-top:$margin-top;
+	}
+}
+p{
+	font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+}
+a:hover {
+    text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+#posts{
+	img{
+	margin-top:$margin-top;
+	}
+}
+#sb_instagram .sbi_header_text {
+    padding-top: 0;
+}
+#sb_instagram .sb_instagram_header{
+	padding:0!important;
+}
+
+.alm-reveal {
+	clear: both;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+ .archive {
+ #main article {
+    height: 450px;
+	}
+}

@@ -1,0 +1,77 @@
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    #interestingheader{
+        position: absolute;
+        margin-top: -20px;
+        background: white;
+        left: 50%;
+        width: 234px;
+        margin-left: -117px;
+        }
+    .thick_line {
+        width: 1111px;
+        }
+
+    }
+
+    /* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  #interestingheader{
+        position: absolute;
+        margin-top: -20px;
+        background: white;
+        left: 50%;
+        width: 234px;
+        margin-left: -117px;
+        }
+    .thick_line {
+        width: 1111px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    #interestingheader{
+        position: absolute;
+        margin-top: -18px;
+        background: white;
+        left: 50%;
+        width: 234px;
+        margin-left: -117px;
+        }
+
+    .thick_line {
+        width: 1139px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    #interestingheader{
+        position: absolute;
+        margin-top: -18px;
+        background: white;
+        left: 50%;
+        width: 234px;
+        margin-left: -117px;
+        }
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+     #interestingheader{
+        position: absolute;
+        margin-top: -18px;
+        background: white;
+        left: 50%;
+        width: 234px;
+        margin-left: -117px;
+        }
+}

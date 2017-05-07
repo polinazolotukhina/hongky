@@ -1,0 +1,49 @@
+
+
+/* BASE - base styles, mixins, etc. */
+
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+
+@import 'base/_base.scss';
+
+/* MODULS, individual components */
+
+@import 'modules/_typography.scss';
+@import 'modules/_blocks.scss';
+@import 'modules/_buttons.scss';
+@import 'modules/_sections.scss';
+@import 'modules/_components.scss';
+
+/* LAYUOTS */
+
+@import 'layouts/_nav.scss';
+@import 'layouts/_header.scss';
+@import 'layouts/_footer.scss';
+@import 'layouts/_homepage.scss';
+@import 'layouts/_sidebar.scss';
+@import 'layouts/_catpage.scss';
+
+
+
+img {
+    width: 100%;
+}
+
+
+a{
+	color:black;
+	&:hover{
+	color:$hover-color
+	}
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    }
+
+    
+
+
+
+
